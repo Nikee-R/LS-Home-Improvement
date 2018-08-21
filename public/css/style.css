@@ -1,0 +1,76 @@
+/* Controls the body */
+
+body {
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 34px;
+    background-color: rgb(224, 224, 224);
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1  {
+    margin-bottom: 20px;
+    color: rgb(114, 190, 216);
+}
+
+/* Controls main body areas */
+
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 920px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.Questions {
+    background-color: white;
+
+}
+
+/* Form control */
+
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label, input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%
+}
+
+input[type=text], input[type=email], textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+textarea {
+    height: 200px;
+}
