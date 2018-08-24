@@ -1,0 +1,202 @@
+/* Controls header */
+header {
+    padding-left: 20px;
+    height: 70px;
+    background: #ffffff;
+    border-bottom: solid 0.5px #dddddd;
+  }
+
+  #top {
+    height: 30px;
+    background-color: #1b75bc;
+    color: white;
+    line-height: 30px;
+    padding-left: 20px;
+    border-bottom: 10px white;
+  }
+  
+  #white10px {
+    width: auto;
+    height: 10px;
+    background-color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #my_name {
+    text-align: center;
+    color: white;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+  }
+
+/* Controls navigation */
+.nav {
+    float: right;
+  }
+  
+  .nav ul {
+    height: 70px;
+    line-height: 70px;
+  }
+  
+  .nav li {
+    display: inline-block;
+    border-right: solid 0.5px #f1f1f1;
+    width: 70px;
+    height: 15px;
+    line-height:15px;
+    text-align: center;
+  }
+  
+  .nav a {
+    color: #666666;
+  }
+  
+  .nav a:hover {
+    color: #1b75bc;
+  }
+/* Controls the body */
+
+body {
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 34px;
+    background-color: rgb(224, 224, 224);
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1  {
+    margin-bottom: 20px;
+    color: rgb(114, 190, 216);
+}
+
+/* Controls main body areas */
+
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background-color: white;
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 920px;
+    padding: 30px;
+    overflow: auto;
+}
+
+#QandA {
+    background-color: white;
+    width: 100%;
+    max-width: 97%;
+    margin: 0 auto;
+    clear: both;
+    background-color: white;    
+
+}
+
+.question {
+    background-color: rgb(224, 224, 224);    
+}
+
+.answer {
+
+}
+
+/* Form control */
+
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label, input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%
+}
+
+input[type=text], input[type=email], textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+textarea {
+    height: 200px;
+}
+
+/* Controls footer */
+footer {
+    width: 100%;
+    background-color:#1b75bc;
+    color: white;
+    font-size: 8px;
+    height: 40px;
+    border-top: 3px solid #1b75bc;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  /* Media control */
+  @media only screen and (max-width: 640px) {
+    #my_name {
+      width: 100%;
+      clear: right;
+    }
+
+    .nav {
+      width: 100%;
+      float: left;
+      text-align: center;
+      border-bottom: solid 1px #dddddd;
+      background-color: white;
+    }
+
+    .main_box img {
+      width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main_box img {
+      width: 45%;
+    }
+
+    #my_name {
+      text-align: center;
+      color: white;
+      float: left;
+      height: 70px;
+      line-height: 70px;
+    }
+
+    .nav {
+      float: right;
+    }
+}
