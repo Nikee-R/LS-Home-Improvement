@@ -1,0 +1,195 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666666;
+  background: #f1f1f1;
+}
+
+header {
+  padding-left: 20px;
+  height: 70px;
+  background: #ffffff;
+  border-bottom: solid 0.5px #dddddd;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #1b75bc;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #dddddd;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+#top {
+  height: 30px;
+  background-color: #1b75bc;
+  color: white;
+  line-height: 30px;
+  padding-left: 20px;
+  border-bottom: 10px white;
+}
+
+#white10px {
+  width: auto;
+  height: 10px;
+  background-color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#my_name {
+  text-align: center;
+  color: white;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul {
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav li {
+  display: inline-block;
+  border-right: solid 0.5px #f1f1f1;
+  width: 70px;
+  height: 15px;
+  line-height:15px;
+  text-align: center;
+}
+
+.nav a {
+  color: #666666;
+}
+
+.nav a:hover {
+  color: #1b75bc;
+}
+
+.main_box {
+  margin-top: 20px;
+  background-color: white;
+  padding: 30px;
+  height:  auto; 
+}
+
+.main_box img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+footer {
+  width: 100%;
+  background-color:#1b75bc;
+  color: white;
+  font-size: 8px;
+  height: 40px;
+  border-top: 3px solid #1b75bc;
+  text-align: center;
+  line-height: 40px;
+}
+
+form input {
+  width: 100%;
+  line-height: 200%;
+}
+
+form input  { 
+  width: 100%;
+  line-height: 200%;
+}
+
+form textarea  { 
+  width: 100%;
+  line-height: 200%;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #1b75bc;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1b4f97;
+}
+
+.main_box img {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    #my_name {
+      width: 100%;
+      clear: right;
+    }
+
+    .nav {
+      width: 100%;
+      float: left;
+      text-align: center;
+      border-bottom: solid 1px #dddddd;
+      background-color: white;
+    }
+
+    .main_box img {
+      width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main_box img {
+      width: 45%;
+    }
+
+    #my_name {
+      text-align: center;
+      color: white;
+      float: left;
+      height: 70px;
+      line-height: 70px;
+    }
+
+    .nav {
+      float: right;
+    }
+}
+

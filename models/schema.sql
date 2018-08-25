@@ -1,5 +1,0 @@
-DROP DATABASE IF EXISTS sequelize_QandA;
-CREATE DATABASE sequelize_QandA;
-
-DROP DATABASE IF EXISTS testdb;
-CREATE DATABASE testdb;
