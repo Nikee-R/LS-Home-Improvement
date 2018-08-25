@@ -8,14 +8,14 @@
 
     <!-- CSS and bootstrap -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/services.css" >
+    <link rel="stylesheet" type="text/css" href="css/services.css">
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
     <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
 
 </head>
@@ -30,14 +30,14 @@
     <div id="white10px"></div>
 
     <header>
-        <div class="container">
-        
-            <div id="my_name">
-                <img src="images/imgs/logo_margin.png" height="70">
+        <div class="container clearfix">
+
+            <div id="my_name" class="float-left">
+                <img src="images/logo_margin.png" height="70">
             </div>
 
             <!-- Nav -->
-            <div class="nav">
+            <div class="nav float-right col-auto">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Service</a></li>
@@ -45,14 +45,13 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-
         </div>
     </header>
 
     <!--Service Content -->
-    <main class="container services-main">
-        
-        <div class="row" id="service-title">
+    <main class="container services-main p-auto">
+
+        <div class="row p-2" id="service-title">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service">
                 <h2 class="text-center"> Services We Provide</h2>
                 <p class="text-center">Pick a service--any service. We shall help make your dream home a reality.</p>
@@ -65,48 +64,66 @@
 
             <!-- Flooring -->
             <div class=" col-xs-12 col-sm-12 col-md-3 col-lg-3 service">
-                <div class="content">
-                    <a href="# ">
-                        <div class="content-overlay"> </div>
-                        <img class="img-responsive content-image " src="images/flooring.jpg " />
-                        <h5 class="content-details fadeIn-left"> Flooring </h5>
-                    </a>
+                <div class="content card">
+                    <div class="content-overlay"> </div>
+                    <img class="img-responsive content-image" src="images/flooring.jpg " />
+                    <div class="content-details">
+                        <div class="card-body rounded" style="background-color: rgba(255, 255, 255, 0.8)">
+                            <h5 class="card-title" style="background-color: rgba(0, 0, 0, 0.8)"> Flooring </h5>
+                            <p class="card-text" style="color:black"> You'll be floored by our flooring selection. </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Kitchen-->
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 service">
-                <div class="content">
-                    <a href="# ">
-                        <div class="content-overlay"> </div>
-                        <img class="img-responsive content-image" src="images/kitchen.jpg " />
-                        <h5 class="content-details fadeIn-left"> Kitchen </h5>
-                    </a>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 service ">
+
+                <div class="content card">
+                    <div class="content-overlay"> </div>
+                    <img class="img-responsive content-image" src="images/kitchen.jpg " />
+                    <div class="content-details">
+                        <div class="card-body rounded" style="background-color: rgba(255, 255, 255, 0.8)">
+                            <h5 class="card-title" style="background-color: rgba(0, 0, 0, 0.8)"> Kitchen </h5>
+                            <p class="card-text" style="color:black"> You cook stuff here.</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
             <!-- Bath  -->
+
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 service">
-                <div class="content">
-                    <a href="# ">
-                        <div class="content-overlay"> </div>
-                        <img class="img-responsive content-image" src="images/bath.jpg " />
-                        <h5 class="content-details fadeIn-left"> Bath </h5>
-                    </a>
+                <div class="content card">
+                    <div class="content-overlay"> </div>
+                    <img class="img-responsive content-image" src="images/bath.jpg " />
+                    <div class="content-details">
+                        <div class="card-body rounded" style="background-color: rgba(255, 255, 255, 0.8)">
+                            <h5 class="card-title" style="background-color: rgba(0, 0, 0, 0.8)"> Bath </h5>
+                            <p class="card-text" style="color:black"> Be ready for a shower of compliments.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Other -->
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 service">
-                <div class="content">
-                    <a href="# ">
-                        <div class="content-overlay"> </div>
-                        <img class="img-responsive content-image" src="images/blueprint.jpg " />
-                        <h5 class="content-details fadeIn-left"> Other </h5>
-                    </a>
+                <div class="content card">
+                    <div class="content-overlay"> </div>
+                    <img class="img-responsive content-image" src="images/blueprint.jpg " />
+                    <div class="content-details">
+                        <div class="card-body rounded" style="background-color: rgba(255, 255, 255, 0.8)">
+                            <h5 class="card-title" style="background-color: rgba(0, 0, 0, 0.8)"> Other </h5>
+                            <p class="card-text" style="color:black"> For all those other things which aren't listed.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
+       
+        <br>
     </main>
 
     <!-- footer -->
