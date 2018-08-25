@@ -1,15 +1,31 @@
 // ========================= Dependencies ========================= //
 
-var QandA_db = require("../models");
+var QandA_db = require("../models/QandA");
 
 // ========================= Routes ========================= //
 
 module.exports = function(app) {
 
     // Get all the questions and answers.
-    app.get("/api/QandA", function(req, res) {
-        QandA_db.QandA.findAll({}).then(function(dbQandA) {
-            res.json(dbQandA);
+    app.get("/api/all", function(req, res) {
+        QandA_db.QandA.findAll({}).then(function(results) {
+            res.json(results);
+        });
+    });
+
+    // Adds a new question.
+    app.post("api/new", function(req, res) {
+
+        console.log("Question:");
+        console.log(req.body);
+
+        QandA.create({
+            author: req.body.author,
+            body: req.body.body,
+            created_at: req.body.created_at
+        }).then(function(results) {
+            // Reults in a new question.
+            res.end();
         });
     });
 

@@ -59,14 +59,14 @@ header {
   .nav a:hover {
     color: #1b75bc;
   }
-  
+
 /* Controls the body */
 
 body {
     font-size: 18px;
     margin: 0 auto;
     line-height: 34px;
-    background-color: rgb(224, 224, 224);
+    background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
 
 }

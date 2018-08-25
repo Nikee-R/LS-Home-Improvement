@@ -1,3 +1,8 @@
+// ========================= Dependencies ========================= //
+
+var Sequelize = require("sequelize");
+var sequelize = require("../config/connection.js");
+
 // ========================= Questions ========================= //
 
 module.exports = function(sequelize, DataTypes) {
@@ -7,6 +12,10 @@ module.exports = function(sequelize, DataTypes) {
       created_at: DataTypes.DATE
     });
     return Question;
+
+    // Syncs with databse.
+    Question.sync();
+
   };
 
   // ========================= Answers ========================= //
@@ -16,8 +25,9 @@ module.exports = function(sequelize, DataTypes) {
       body: DataTypes.STRING,
     });
     return Answer;
+
+    // Syncs with databse.
+    Answer.sync();
+    
   };
 
-  
-  
-  
