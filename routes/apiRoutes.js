@@ -7,9 +7,15 @@ var QandA_db = require("../models/QandA");
 module.exports = function(app) {
 
     // Get all the questions and answers.
-    app.get("/api/all", function(req, res) {
+    app.get("/api/:question", function(req, res) {
         QandA_db.QandA.findAll({}).then(function(results) {
-            res.json(results);
+            return res.json(results);
+        });
+    });
+
+    app.get("/api/:answer", function(req, res) {
+        QandA_db.QandA.findAll({}).then(function(results) {
+            return res.json(results);
         });
     });
 
