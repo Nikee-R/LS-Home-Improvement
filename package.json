@@ -5,7 +5,7 @@
   "main": "services.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "services.html"
   },
   "author": "nikee, dianne, yuxin, pushpa",
   "license": "ISC",
