@@ -2,7 +2,7 @@
   "name": "ls-home-improvement",
   "version": "1.0.0",
   "description": "LS Home improvement is a contracting website where the customer can choose from a list of renovation options provided. This website uses Sequelize to manage and create a database to keep records of customer inquiries.",
-  "main": "server.js",
+  "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
