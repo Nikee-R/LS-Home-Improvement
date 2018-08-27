@@ -6,7 +6,7 @@ LS Home improvement is a contracting website where the customer can choose from 
 
 This application is hosted on [Heroku](), please check it out!
 
-You are also able to run this application locally using [Node](https://nodejs.org/en/)with the following instructions.
+You are also able to run this application locally using [Node](https://nodejs.org/en/) with the following instructions.
 
 In order to get this application to work locally, you will need do these npm packages in [Node](https://nodejs.org/en/). You will also require [MySQL Workbench](https://www.mysql.com/products/workbench/) in order to run the schema to get the database functions to work.
 
