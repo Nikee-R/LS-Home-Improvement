@@ -9,8 +9,8 @@ module.exports = function(app) {
   });
 
   // Load index page.
-  app.get("/services", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/services.html"));
+  app.get("/index", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 
   // Load services page.
