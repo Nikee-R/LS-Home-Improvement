@@ -34,10 +34,8 @@ app.set("view engine", "handlebars");
 
 // ========================= Routes ========================= //
 
-require("./routes/apiRoutes.js")(app);
-require("./routes/htmlRoutes.js")(app);
-
-var syncOptions = { force: false };
+require(path.join(__dirname, "./routes/apiRoutes.js")(app));
+require(path.join(__dirname, "./routes/htmlRoutes.js")(app));
 
 // If running a  test, set syncOptions.force to true.
 // Clearing the `testdb`
