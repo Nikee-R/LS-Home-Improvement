@@ -1,6 +1,7 @@
 // ========================= Dependencies ========================= //
 
 var QandA_db = require("../models/QandA");
+var path = require("path");
 
 // ========================= Routes ========================= //
 
