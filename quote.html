@@ -16,6 +16,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- link FA ICON  -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -58,18 +59,18 @@
       <form class="fullwidth">
         <div class="form-group">
           <label>Name:</label>
-          <input type="text" name="name" placeholder="Your name.."><br><br>
+          <input id="client_name" type="text" name="name" placeholder="Your name.."><br><br>
         </div>
 
         <div class="form-group">
           <label>Email:</label>
-          <input type="text" name="email" placeholder="Your email.."><br><br>
+          <input id="client_email" type="text" name="email" placeholder="Your email.."><br><br>
         </div>
 
         <div class="form-group">
-          <label for="select1">Project</label>
+          <label for="client_select">Project</label>
           <br>
-          <select class="form-control" id="select1">
+          <select class="form-control" id="client_select">
             <option>Bath</option>
             <option>Kitchen</option>
             <option>Painting</option>
@@ -82,10 +83,10 @@
 
         <div class="form-group">
           <label>Message:</label>
-          <textarea type="text" name="message" rows="5" placeholder="Feel free to contact me."></textarea><br><br>
+          <textarea id="client_message" type="text" name="message" rows="5" placeholder="Feel free to contact me."></textarea><br><br>
 
           <!--button-->
-          <input type="submit" value="Submit">
+          <input id="client_submit" type="submit" value="Submit">
         </div>
       </form> 
   </section>
@@ -94,6 +95,10 @@
   <footer>
     <p>copyright&copy;</p>
   </footer>
+  <!-- link Gmail-send CDN  -->
+  <script src="https://cdn.jsdelivr.net/npm/gmail-send@1.2.14/index.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/quote.js"></script>
 
 </body>
 
